@@ -1,0 +1,43 @@
+.stage {
+    position: relative;
+}
+
+.stage-prop {
+    position: absolute;
+}
+
+.headline {
+    color: #000;
+    font-size: 200%;
+    font-weight: bold;
+    height: 0;
+    margin: 2.5% 0 0 2.5%;
+    padding-bottom: 12.5%;
+    text-align: left;
+    width: 95%;
+}
+
+.ingredients {
+    color: #000;
+    font-size: 100%;
+    height: 0;
+    margin: 17.5% 0 0 2.5%;
+    padding-bottom: 25%;
+    text-align: left;
+    width: 95%;
+}
+
+.ingredients li {
+    font-size: 80%;
+    margin: 0.5em;
+}
+
+.method {
+    color: #000;
+    font-size: 100%;
+    height: 0;
+    margin: 45% 0 0 2.5%;
+    padding-bottom: 15%;
+    text-align: left;
+    width: 95%;
+}

@@ -1,0 +1,65 @@
+h1,
+p {
+    text-align: center;
+}
+
+.stage {
+    position: relative;
+}
+
+.stage-prop {
+    position: absolute;
+}
+
+.label {
+    height: 0;
+    padding-bottom: 5%;
+    text-align: center;
+    width: 20%;
+}
+
+.label:before {
+    background-color: inherit;
+    content: '';
+    padding-bottom: 25%;
+    position: absolute;
+    width: 22.5%;
+}
+
+.delivery-service-label {
+    background-color: #DD0031;
+    margin: 2.5% 0 0 41.25%;
+}
+
+.delivery-service-label:before {
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 50%);
+    left: -12.5%;
+    top: 0;
+}
+
+.home-label {
+    background-color: #0D47A1;
+    margin: 27.5% 0 0 13.25%;
+}
+
+.home-label:before {
+    clip-path: polygon(0% 0%, 50% 0%, 100% 50%, 50% 100%, 0% 100%);
+    right: -12.5%;
+    top: 0;
+}
+
+.supermarket-label {
+    background-color: #C3002F;
+    margin: 28.75% 0 0 67.5%;
+}
+
+.supermarket-label:before {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
+    left: 0;
+    top: 50%;
+}
+
+.label span {
+    line-height: 2.2em;
+    position: relative;
+}

@@ -1,0 +1,39 @@
+a,
+h1,
+h2,
+span {
+    text-align: center;
+}
+
+a,
+span {
+    display: block;
+}
+
+h1 {
+    font-size: 90%;
+    margin: 0.3em 0;
+}
+
+h2 {
+    font-size: 70%;
+    margin: 0.3em 0;
+}
+
+p {
+    margin: 0.3em 0 1em;
+}
+
+span {
+    font-size: 20%;
+}
+
+span a {
+    display: inline;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
