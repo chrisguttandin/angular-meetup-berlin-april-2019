@@ -15,7 +15,7 @@ export class DefsComponent {
     public pastaPath: string;
 
     constructor (location: Location) {
-        this.pastaPath = `url(${ location.path() }#pasta)`;
+        this.pastaPath = `url(${ location.path().slice(1) }#pasta)`;
     }
 
 }
