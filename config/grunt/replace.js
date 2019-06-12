@@ -39,7 +39,7 @@ module.exports = (grunt) => {
             },
             options: {
                 patterns: [ {
-                    match: /""\+\({[^}]*}\[e\]\|\|e\)\+"-es5\."\+{([0-9]+:"[a-f0-9]{20}",?)+}/g,
+                    match: /""\+\({[^}]*}\[e\]\|\|e\)\+"-es(2015|5)\."\+{([0-9]+:"[a-f0-9]{20}",?)+}/g,
                     replacement: (match) => match.replace(/^""/g, '"scripts/"')
                 } ]
             }
@@ -104,14 +104,14 @@ module.exports = (grunt) => {
                     match: /\/([a-z0-9-]*\.[a-z0-9]*\.js)"/g,
                     replacement: (_, filename) => `/scripts/${ filename }"`
                 }, {
-                    match: /[\s]*"\/angular-meetup-berlin-april-2019(\/scripts)?\/runtime-(?:es2015|es5)\.[a-z0-9]*\.js",/g,
+                    match: /[\s]*"\/angular-meetup-berlin-april-2019(\/scripts)?\/runtime-es(?:2015|5)\.[a-z0-9]*\.js",/g,
                     replacement: ''
                 }, {
-                    match: /[\s]*"\/angular-meetup-berlin-april-2019(\/scripts)?\/runtime-(?:es2015|es5)\.[a-z0-9]*\.js":\s"[a-z0-9]+",/g,
+                    match: /[\s]*"\/angular-meetup-berlin-april-2019(\/scripts)?\/runtime-es(?:2015|5)\.[a-z0-9]*\.js":\s"[a-z0-9]+",/g,
                     replacement: ''
                 }, {
                     // Replace the hash value inside of the hashTable for "/scripts/main.*.js" because it was modified before.
-                    match: /"\/angular-meetup-berlin-april-2019(\/scripts\/main-(?:es2015|es5)\.[a-z0-9]+.js)":\s"[a-z0-9]+"/g,
+                    match: /"\/angular-meetup-berlin-april-2019(\/scripts\/main-es(?:2015|5)\.[a-z0-9]+.js)":\s"[a-z0-9]+"/g,
                     replacement: (_, filename) => {
                         return `"/angular-meetup-berlin-april-2019${ filename }": "${ computeHashOfFile(`build/angular-meetup-berlin-april-2019${ filename }`, 'sha1', 'hex') }"`;
                     }
@@ -132,7 +132,7 @@ module.exports = (grunt) => {
             },
             options: {
                 patterns: [ {
-                    match: /<script\ssrc="(runtime-(?:es2015|es5)\.[a-z0-9]*\.js)"(\s(nomodule|type="module"))\sintegrity="sha384-[a-zA-Z0-9+/]*=*"\scrossorigin="anonymous"><\/script>/g,
+                    match: /<script\ssrc="(runtime-es(?:2015|5)\.[a-z0-9]*\.js)"(\s(nomodule|type="module"))\sintegrity="sha384-[a-zA-Z0-9+/]*=*"\scrossorigin="anonymous"><\/script>/g,
                     replacement: (match, filename, moduleAttribute) => {
                         return `<script${ moduleAttribute }>${ fs.readFileSync(`build/angular-meetup-berlin-april-2019/${ filename }`) }</script>`;
                     }
@@ -149,7 +149,7 @@ module.exports = (grunt) => {
                 patterns: [ {
                     match: /<script\ssrc="([a-z0-9-]*\.[a-z0-9]*\.js)"(\s(?:nomodule|type="module"))\sintegrity="(sha384-[a-zA-Z0-9+/]*=*)"\scrossorigin="anonymous"><\/script>/g,
                     replacement: (match, filename, moduleAttribute, initialHash) => {
-                        const updatedHash = (/main-(?:es2015|es5)\.[a-z0-9]*\.js/.test(filename)) ?
+                        const updatedHash = (/main-es(?:2015|5)\.[a-z0-9]*\.js/.test(filename)) ?
                             `sha384-${ computeHashOfFile(`build/angular-meetup-berlin-april-2019/scripts/${ filename }`, 'sha384', 'base64') }` :
                             initialHash;
 
