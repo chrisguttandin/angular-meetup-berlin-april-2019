@@ -9,6 +9,14 @@ module.exports = {
             }
         ]
     },
+    html: {
+        files: [
+            {
+                dest: 'build/angular-meetup-berlin-april-2019/start.html',
+                src: 'build/angular-meetup-berlin-april-2019/index.html'
+            }
+        ]
+    },
     scripts: {
         files: [
             {

@@ -116,10 +116,10 @@ module.exports = (grunt) => {
                         return `"/angular-meetup-berlin-april-2019${ filename }": "${ computeHashOfFile(`build/angular-meetup-berlin-april-2019${ filename }`, 'sha1', 'hex') }"`;
                     }
                 }, {
-                    // Replace the hash value inside of the hashTable for "/index.html" because it was modified before.
-                    match: /"\/angular-meetup-berlin-april-2019\/index\.html":\s"[a-z0-9]+"/g,
-                    replacement: () => {
-                        return `"/angular-meetup-berlin-april-2019/index.html": "${ computeHashOfFile('build/angular-meetup-berlin-april-2019/index.html', 'sha1', 'hex') }"`;
+                    // Replace the hash value inside of the hashTable for "/(index|start).html" because it was modified before.
+                    match: /"\/angular-meetup-berlin-april-2019\/(index|start)\.html":\s"[a-z0-9]+"/g,
+                    replacement: (_, filename) => {
+                        return `"/angular-meetup-berlin-april-2019/${ filename }.html": "${ computeHashOfFile(`build/angular-meetup-berlin-april-2019/${ filename }.html`, 'sha1', 'hex') }"`;
                     }
                 } ]
             }
