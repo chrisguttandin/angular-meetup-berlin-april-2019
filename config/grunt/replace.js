@@ -21,7 +21,7 @@ module.exports = (grunt) => {
         'bundle': {
             files: {
                 './': [
-                    'build/angular-meetup-berlin-april-2019/main-es*.js'
+                    'build/angular-meetup-berlin-april-2019/main*.js'
                 ]
             },
             options: {
