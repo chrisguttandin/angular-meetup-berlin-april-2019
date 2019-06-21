@@ -1,6 +1,6 @@
 module.exports = {
     'runtime': [
-        'build/angular-meetup-berlin-april-2019/runtime-es*.js'
+        'build/angular-meetup-berlin-april-2019/runtime*.js'
     ],
     'scripts': [
         'build/angular-meetup-berlin-april-2019/!(ngsw-worker).js'
