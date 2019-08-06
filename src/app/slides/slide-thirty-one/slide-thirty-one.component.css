@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0.5em 0 0.5em 0.5em;
+    position: relative;
+}
+
+ul li:before {
+    height: 1em;
+    left: -1.5em;
+    position: absolute;
+    top: 0.05em;
+    width: 1em;
+}
+
+ul li.negative:before {
+    content: '⚠️';
+}
+
+ul li.positive:before {
+    content: '✅';
+}
