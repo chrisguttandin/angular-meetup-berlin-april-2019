@@ -464,7 +464,7 @@ describe('slides', () => {
             const result = await resembleElementShot(by.tagName('body'), 'test/screenshots/slide-28');
 
             if (env.TRAVIS) {
-                expectElementShot(result).toHaveMismatchWithinRange(2.3, 2.5);
+                expectElementShot(result).toHaveMismatchWithinRange(2.2, 2.4);
             } else {
                 expectElementShot(result).toBeRegressionFree();
             }
@@ -512,7 +512,7 @@ describe('slides', () => {
             const result = await resembleElementShot(by.tagName('body'), 'test/screenshots/slide-31');
 
             if (env.TRAVIS) {
-                expectElementShot(result).toHaveMismatchWithinRange(5.4, 5.6);
+                expectElementShot(result).toHaveMismatchWithinRange(8.3, 8.5);
             } else {
                 expectElementShot(result).toBeRegressionFree();
             }
@@ -528,7 +528,7 @@ describe('slides', () => {
             const result = await resembleElementShot(by.tagName('body'), 'test/screenshots/slide-32');
 
             if (env.TRAVIS) {
-                expectElementShot(result).toHaveMismatchWithinRange(5.1, 5.3);
+                expectElementShot(result).toHaveMismatchWithinRange(8.9, 9.1);
             } else {
                 expectElementShot(result).toBeRegressionFree();
             }
@@ -544,7 +544,7 @@ describe('slides', () => {
             const result = await resembleElementShot(by.tagName('body'), 'test/screenshots/slide-33');
 
             if (env.TRAVIS) {
-                expectElementShot(result).toHaveMismatchWithinRange(5.1, 5.3);
+                expectElementShot(result).toHaveMismatchWithinRange(8.9, 9.1);
             } else {
                 expectElementShot(result).toBeRegressionFree();
             }
@@ -560,7 +560,7 @@ describe('slides', () => {
             const result = await resembleElementShot(by.tagName('body'), 'test/screenshots/slide-34');
 
             if (env.TRAVIS) {
-                expectElementShot(result).toHaveMismatchWithinRange(2.4, 2.6);
+                expectElementShot(result).toHaveMismatchWithinRange(3.3, 3.5);
             } else {
                 expectElementShot(result).toBeRegressionFree();
             }
