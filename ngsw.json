@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1570220847091,
+  "timestamp": 1571448734874,
   "index": "/angular-meetup-berlin-april-2019/start.html",
   "assetGroups": [
     {
@@ -8,9 +8,9 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/angular-meetup-berlin-april-2019/scripts/4.991913cc4d9a4c31b28b.js",
-        "/angular-meetup-berlin-april-2019/scripts/main.1af40f2064306943205b.js",
-        "/angular-meetup-berlin-april-2019/scripts/polyfills.3a3bfebdaa93bee0e55b.js",
+        "/angular-meetup-berlin-april-2019/scripts/4.98d23cff4f29e06f3ebf.js",
+        "/angular-meetup-berlin-april-2019/scripts/main.6daf5fd9a67e2c8ac2cd.js",
+        "/angular-meetup-berlin-april-2019/scripts/polyfills.3fcc62c558202a0112a8.js",
         "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
         "/angular-meetup-berlin-april-2019/start.html",
         "/angular-meetup-berlin-april-2019/styles/styles.3e3a3456dc100662aebd.css"
@@ -37,11 +37,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/angular-meetup-berlin-april-2019/scripts/4.991913cc4d9a4c31b28b.js": "6625cf3ac8b3369c4ec2ef3785c6b67dfb54e691",
-    "/angular-meetup-berlin-april-2019/scripts/main.1af40f2064306943205b.js": "9952b3c50b12a3a008a8635769f5d4e01a7b77c3",
-    "/angular-meetup-berlin-april-2019/scripts/polyfills.3a3bfebdaa93bee0e55b.js": "a514da8731833287c9583044e9d512d74c45312a",
-    "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "5953fb53b4617918a379ad521eea7b157b244d46",
-    "/angular-meetup-berlin-april-2019/start.html": "72e140c731a7f24933d8db98270d27c0bef4622d",
+    "/angular-meetup-berlin-april-2019/scripts/4.98d23cff4f29e06f3ebf.js": "b32d31200a1b01127ef59f7f6e75d906eaf7b4de",
+    "/angular-meetup-berlin-april-2019/scripts/main.6daf5fd9a67e2c8ac2cd.js": "6a39ad4078b090f6131b92268e8c63b8a897046a",
+    "/angular-meetup-berlin-april-2019/scripts/polyfills.3fcc62c558202a0112a8.js": "08c97940ba93ccc4121b85df6911d86011ef3fb8",
+    "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "a578a59a82052d2001b770646c1738ae7cb19bd6",
+    "/angular-meetup-berlin-april-2019/start.html": "60bada9b0c72b4d6260b7a46772ff5725dadfd22",
     "/angular-meetup-berlin-april-2019/styles/styles.3e3a3456dc100662aebd.css": "57311332aac63615ddd20246fda4d64f08111267"
   },
   "navigationUrls": [
