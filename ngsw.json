@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1578403987496,
+  "timestamp": 1578972058977,
   "index": "/angular-meetup-berlin-april-2019/start.html",
   "assetGroups": [
     {
@@ -8,12 +8,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/angular-meetup-berlin-april-2019/scripts/4.4ed7d9758caa7dac5a04.js",
+        "/angular-meetup-berlin-april-2019/scripts/4.5310e124c0a0476179b4.js",
         "/angular-meetup-berlin-april-2019/scripts/main.369b48811df023ff5d2a.js",
         "/angular-meetup-berlin-april-2019/scripts/polyfills.858e2831e5b8adbf6bbd.js",
         "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
         "/angular-meetup-berlin-april-2019/start.html",
-        "/angular-meetup-berlin-april-2019/styles/styles.3e3a3456dc100662aebd.css"
+        "/angular-meetup-berlin-april-2019/styles/styles.29999db362f83139a308.css"
       ],
       "patterns": []
     },
@@ -37,12 +37,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/angular-meetup-berlin-april-2019/scripts/4.4ed7d9758caa7dac5a04.js": "57a2f5b88e96f3e4184ca335122e490ffd65fa47",
+    "/angular-meetup-berlin-april-2019/scripts/4.5310e124c0a0476179b4.js": "f8a8471709b0e34040e1dba3f41107f9a1b6ceb0",
     "/angular-meetup-berlin-april-2019/scripts/main.369b48811df023ff5d2a.js": "d2155fbf5d5766007aa9d299a7d5af0d281dd205",
     "/angular-meetup-berlin-april-2019/scripts/polyfills.858e2831e5b8adbf6bbd.js": "08c97940ba93ccc4121b85df6911d86011ef3fb8",
     "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "a578a59a82052d2001b770646c1738ae7cb19bd6",
-    "/angular-meetup-berlin-april-2019/start.html": "54da05a85fc61647607cf0c9cb646247cad7acbc",
-    "/angular-meetup-berlin-april-2019/styles/styles.3e3a3456dc100662aebd.css": "57311332aac63615ddd20246fda4d64f08111267"
+    "/angular-meetup-berlin-april-2019/start.html": "83a822f51939500f67dd27e90d3b8cfd08fcc4b6",
+    "/angular-meetup-berlin-april-2019/styles/styles.29999db362f83139a308.css": "08cfb1c71f83d4d85955f5021772b8b3aadeb03b"
   },
   "navigationUrls": [
     {
