@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1581460768732,
+  "timestamp": 1581537119036,
   "index": "/angular-meetup-berlin-april-2019/start.html",
   "assetGroups": [
     {
@@ -9,7 +9,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/angular-meetup-berlin-april-2019/scripts/4.c0f02651061855748903.js",
-        "/angular-meetup-berlin-april-2019/scripts/main.63be5598ff0838123b10.js",
+        "/angular-meetup-berlin-april-2019/scripts/main.6a65fb42b95c63ff6fc2.js",
         "/angular-meetup-berlin-april-2019/scripts/polyfills.c0594e7aada16583f4ce.js",
         "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
         "/angular-meetup-berlin-april-2019/start.html",
@@ -38,10 +38,10 @@
   "dataGroups": [],
   "hashTable": {
     "/angular-meetup-berlin-april-2019/scripts/4.c0f02651061855748903.js": "949030b1a501c3990f9e2c1f48ed89b6198656ae",
-    "/angular-meetup-berlin-april-2019/scripts/main.63be5598ff0838123b10.js": "297222194628b22984074ab82dcd664f9e50a62d",
+    "/angular-meetup-berlin-april-2019/scripts/main.6a65fb42b95c63ff6fc2.js": "44cd842fec6e4e9da34fbebe7472d5678b3d1e56",
     "/angular-meetup-berlin-april-2019/scripts/polyfills.c0594e7aada16583f4ce.js": "fb929778c5522826f6d47a18de7fb1edbdcff3d0",
     "/angular-meetup-berlin-april-2019/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "41f2ca5aad759554b8f58a7e8fd6766555d9644e",
-    "/angular-meetup-berlin-april-2019/start.html": "d6a0181470c1801dd923cdb2cb94871f6e9c663d",
+    "/angular-meetup-berlin-april-2019/start.html": "8e49b8989d7c584fb671856f1b3da4f99c70991b",
     "/angular-meetup-berlin-april-2019/styles/styles.29999db362f83139a308.css": "1cc1a0f99337714f3203ba6fcb9535bcccee9c9f"
   },
   "navigationUrls": [
