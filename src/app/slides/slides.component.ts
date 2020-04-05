@@ -6,6 +6,8 @@ import { filter } from 'rxjs/operators';
 import { WindowService } from '../window.service';
 import { slideAnimation } from './slide.animation';
 
+const EXCLUDED_FORWARD_TRANSITIONS = [ 7, 8, 9, 10, 11, 12, 14, 15, 17, 18, 21, 22, 24, 25, 26, 28, 29, 34 ];
+
 const NO_TRANSITION_PARAMS = { duration: '0s', enterTransform: 'none', leaveTransform: 'none', top: 'auto', width: 'auto' };
 
 @Component({
@@ -107,32 +109,15 @@ export class SlidesComponent implements OnDestroy, OnInit {
             const newIndex = parseInt(activatedChildRoute.snapshot.url[0].path, 10);
             const direction = (newIndex > this._index) ? 'forwards' : 'backwards';
 
-            if ((this._index === 6 && newIndex === 7) ||
-                    (this._index === 7 && newIndex === 8) ||
-                    (this._index === 8 && newIndex === 9) ||
-                    (this._index === 9 && newIndex === 10) ||
-                    (this._index === 10 && newIndex === 11) ||
-                    (this._index === 11 && newIndex === 12) ||
-                    (this._index === 13 && newIndex === 14) ||
-                    (this._index === 14 && newIndex === 15) ||
-                    (this._index === 16 && newIndex === 17) ||
-                    (this._index === 17 && newIndex === 18) ||
-                    (this._index === 20 && newIndex === 21) ||
-                    (this._index === 21 && newIndex === 22) ||
-                    (this._index === 23 && newIndex === 24) ||
-                    (this._index === 24 && newIndex === 25) ||
-                    (this._index === 25 && newIndex === 26) ||
-                    (this._index === 27 && newIndex === 28) ||
-                    (this._index === 28 && newIndex === 29) ||
-                    (this._index === 33 && newIndex === 34)) {
-                this._index = newIndex;
+            this._index = newIndex;
+
+            if (direction === 'forwards' && EXCLUDED_FORWARD_TRANSITIONS.includes(newIndex)) {
                 this.transition = { params: NO_TRANSITION_PARAMS, value: newIndex };
             } else {
                 const nativeWindow = this._windowService.nativeWindow;
                 const isPortrait = (nativeWindow !== null && (nativeWindow.innerWidth / nativeWindow.innerHeight < 4 / 3));
                 const distance = (isPortrait) ? '108%' : '108vw';
 
-                this._index = newIndex;
                 this.transition = {
                     params: {
                         duration: '0.5s',
