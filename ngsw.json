@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585328795463,
+  "timestamp": 1586130034243,
   "index": "/angular-meetup-berlin-april-2019/index.html",
   "assetGroups": [
     {
@@ -8,9 +8,9 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/angular-meetup-berlin-april-2019/scripts/4.93bb984c02bd6fd6d5a3.js",
+        "/angular-meetup-berlin-april-2019/scripts/4.b1a8e09d330f0629d0ec.js",
         "/angular-meetup-berlin-april-2019/index.html",
-        "/angular-meetup-berlin-april-2019/scripts/main.5d7b3f2fe7bac4515665.js",
+        "/angular-meetup-berlin-april-2019/scripts/main.ad1bb57ac59f2742b061.js",
         "/angular-meetup-berlin-april-2019/scripts/polyfills.91d7901d84d975706101.js",
         "/angular-meetup-berlin-april-2019/scripts/scripts.1dade9dd63b52cc23955.js",
         "/angular-meetup-berlin-april-2019/styles/styles.6f2dd37c89bce2a3cac0.css"
@@ -37,9 +37,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/angular-meetup-berlin-april-2019/scripts/4.93bb984c02bd6fd6d5a3.js": "3dfabbdc112f516973874b033a3279f704f5f946",
-    "/angular-meetup-berlin-april-2019/index.html": "0d8e24f7ec0948ab838e4198c034aa77188d338a",
-    "/angular-meetup-berlin-april-2019/scripts/main.5d7b3f2fe7bac4515665.js": "6bdb0258442db6689a35bf249fcd2b8e64c82d70",
+    "/angular-meetup-berlin-april-2019/scripts/4.b1a8e09d330f0629d0ec.js": "2d8eb7d25f133540c43858f5494c93ff0799a9a5",
+    "/angular-meetup-berlin-april-2019/index.html": "e1df9a5a3c60acc68a7b2ab422355bd1b8944394",
+    "/angular-meetup-berlin-april-2019/scripts/main.ad1bb57ac59f2742b061.js": "332f22f40502e5819a2ccd32592460ce69f607f5",
     "/angular-meetup-berlin-april-2019/scripts/polyfills.91d7901d84d975706101.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/angular-meetup-berlin-april-2019/scripts/scripts.1dade9dd63b52cc23955.js": "ab1bef7f2bced76497d70482eb1cdd535a942d48",
     "/angular-meetup-berlin-april-2019/styles/styles.6f2dd37c89bce2a3cac0.css": "4ba148d03f893d253965e3bd42644b83002b20f1"
