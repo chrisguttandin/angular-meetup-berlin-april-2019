@@ -4,12 +4,7 @@
     "newProjectRoot": "projects",
     "projects": {
         "angular-meetup-berlin-april-2019": {
-            "prefix": "amb",
-            "projectType": "application",
-            "root": "",
-            "schematics": {},
-            "sourceRoot": "src",
-            "targets": {
+            "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "configurations": {
@@ -156,7 +151,12 @@
                         "tsConfig": "test/unit/tsconfig.json"
                     }
                 }
-            }
+            },
+            "prefix": "amb",
+            "projectType": "application",
+            "root": "",
+            "schematics": {},
+            "sourceRoot": "src"
         }
     },
     "schematics": {
