@@ -3,23 +3,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
-    providers: [
-        { provide: LocationStrategy, useClass: PathLocationStrategy }
-    ],
+    providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
     selector: 'amb-defs',
-    styleUrls: [ './defs.component.css' ],
+    styleUrls: ['./defs.component.css'],
     templateUrl: './defs.component.html'
 })
 export class DefsComponent {
-
     public pastaPath: string;
 
-    constructor (location: Location) {
-        const slicedPath = location
-            .path()
-            .slice(1);
+    constructor(location: Location) {
+        const slicedPath = location.path().slice(1);
 
-        this.pastaPath = `url(${ slicedPath }#pasta)`;
+        this.pastaPath = `url(${slicedPath}#pasta)`;
     }
-
 }

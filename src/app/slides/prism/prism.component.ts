@@ -15,35 +15,33 @@ import 'prismjs/components/prism-bash'; // tslint:disable-line:no-submodule-impo
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
     selector: 'amb-prism',
-    styleUrls: [ './prism.component.css' ],
+    styleUrls: ['./prism.component.css'],
     templateUrl: './prism.component.html'
 })
 export class PrismComponent implements AfterViewInit, OnChanges {
-
     @Input() public readonly language!: string;
 
     @ViewChild('element', { static: true }) private _element!: ElementRef;
 
-    constructor (private _renderer2: Renderer2) { }
+    constructor(private _renderer2: Renderer2) {}
 
-    public ngAfterViewInit (): void {
+    public ngAfterViewInit(): void {
         Prism.highlightElement(this._element.nativeElement, false);
     }
 
-    public ngOnChanges (changes: SimpleChanges): void {
+    public ngOnChanges(changes: SimpleChanges): void {
         if (changes.language !== undefined) {
             const change = changes.language;
 
             if (!change.firstChange) {
-                this._renderer2.removeClass(this._element.nativeElement, `language-${ change.previousValue }`);
+                this._renderer2.removeClass(this._element.nativeElement, `language-${change.previousValue}`);
             }
 
-            this._renderer2.addClass(this._element.nativeElement, `language-${ change.currentValue }`);
+            this._renderer2.addClass(this._element.nativeElement, `language-${change.currentValue}`);
 
             if (!change.firstChange) {
                 Prism.highlightElement(this._element.nativeElement, false);
             }
         }
     }
-
 }

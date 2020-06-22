@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
-    styleUrls: [ './slide-eighteen.component.css' ],
+    styleUrls: ['./slide-eighteen.component.css'],
     templateUrl: './slide-eighteen.component.html'
 })
-export class SlideEighteenComponent { }
+export class SlideEighteenComponent {}
