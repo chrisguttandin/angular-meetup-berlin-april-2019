@@ -7,9 +7,8 @@
         "baseUrl": "./",
         "declaration": false,
         "declarationMap": false,
-        "module": "commonjs",
         "outDir": "../out-tsc/app-server",
-        "target": "es2015"
+        "target": "es2016"
     },
     "extends": "tsconfig-holy-grail/src/tsconfig-browser",
     "files": ["main.server.ts"],
