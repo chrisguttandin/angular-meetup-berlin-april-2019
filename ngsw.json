@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1604546738391,
+  "timestamp": 1605665422446,
   "index": "/angular-meetup-berlin-april-2019/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/angular-meetup-berlin-april-2019/scripts/4.a042728062e4bd6e8819.js",
         "/angular-meetup-berlin-april-2019/index.html",
-        "/angular-meetup-berlin-april-2019/scripts/main.8916a8697b577235b147.js",
+        "/angular-meetup-berlin-april-2019/scripts/main.01a87adff25f5f854bbb.js",
         "/angular-meetup-berlin-april-2019/scripts/polyfills.c99f51b7982345bb9558.js",
         "/angular-meetup-berlin-april-2019/scripts/scripts.1dade9dd63b52cc23955.js",
-        "/angular-meetup-berlin-april-2019/styles/styles.9697f8091c17ffd60230.css"
+        "/angular-meetup-berlin-april-2019/scripts/styles.1b7ad11265e0a8f9f462.js"
       ],
       "patterns": []
     },
@@ -47,11 +47,11 @@
   "dataGroups": [],
   "hashTable": {
     "/angular-meetup-berlin-april-2019/scripts/4.a042728062e4bd6e8819.js": "b4af0ad853d3d0678c868c0fe87ba71eb7761893",
-    "/angular-meetup-berlin-april-2019/index.html": "5889a5ed31fd6f2d6110ed01ea61a1ed7a113437",
-    "/angular-meetup-berlin-april-2019/scripts/main.8916a8697b577235b147.js": "dfba5c78e802b677fd34d177256479508651d046",
+    "/angular-meetup-berlin-april-2019/index.html": "b27734f008d3c24e7724a01693f8951b8dd89948",
+    "/angular-meetup-berlin-april-2019/scripts/main.01a87adff25f5f854bbb.js": "2b8c92042a79a59e87987c8b6e41b9544dd03d93",
     "/angular-meetup-berlin-april-2019/scripts/polyfills.c99f51b7982345bb9558.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/angular-meetup-berlin-april-2019/scripts/scripts.1dade9dd63b52cc23955.js": "b13c36026668fc2622494bd3e55c75d9d19f620a",
-    "/angular-meetup-berlin-april-2019/styles/styles.9697f8091c17ffd60230.css": "d5f90c5be46d826756fc51bb4dc65bdb2a73ecf3"
+    "/angular-meetup-berlin-april-2019/scripts/styles.1b7ad11265e0a8f9f462.js": "cae3c9629b6d4c2f016574be8305bdc1e75ac3de"
   },
   "navigationUrls": [
     {
