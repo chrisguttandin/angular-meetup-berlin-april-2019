@@ -36,13 +36,13 @@ module.exports = (grunt) => {
             cmd: 'ng lint angular-meetup-berlin-april-2019 --configuration test'
         },
         'monitor': {
-            cmd: 'ng serve --aot'
+            cmd: 'ng serve'
         },
         'prerender': {
             cmd: 'ng run angular-meetup-berlin-april-2019:server:production && angular-prerender --preserve-index-html'
         },
         'preview': {
-            cmd: 'ng serve --aot --prod'
+            cmd: 'ng serve --prod'
         },
         'smoke': {
             cmd: env.TRAVIS
