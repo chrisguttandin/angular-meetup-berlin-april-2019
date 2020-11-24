@@ -10,7 +10,7 @@ export class HomePage {
         return element(by.css('amb-app h2')).getText();
     }
 
-    public async navigateTo(): Promise<any> {
+    public async navigateTo(): Promise<unknown> {
         return browser.get(env.IS_SMOKE_TEST === 'true' ? '/angular-meetup-berlin-april-2019' : '/');
     }
 }
