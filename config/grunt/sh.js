@@ -53,7 +53,7 @@ module.exports = (grunt) => {
             cmd: 'ng test --watch false'
         },
         'verify': {
-            cmd: `bundle-buddy build//angular-meetup-berlin-april-2019/*.js.map && \
+            cmd: `bundle-buddy build/angular-meetup-berlin-april-2019/*.js.map && \
                 grep -r build/**/*.map -e '/environments/environment.ts'; test $? -eq 1`
         }
     };
