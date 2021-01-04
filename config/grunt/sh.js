@@ -13,8 +13,8 @@ module.exports = (grunt) => {
 
     return {
         'analyze': {
-            cmd:
-                'npx ng build --prod --source-map --stats-json && webpack-bundle-analyzer build/angular-meetup-berlin-april-2019/stats.json'
+            cmd: `npx ng build --prod --source-map --stats-json && \
+                webpack-bundle-analyzer build/angular-meetup-berlin-april-2019/stats.json`
         },
         'build': {
             cmd: 'npx ng build --base-href /angular-meetup-berlin-april-2019/ --prod --subresource-integrity'
