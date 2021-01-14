@@ -47,8 +47,11 @@ module.exports = (grunt) => {
         },
         'smoke': {
             cmd: env.CI
-                ? "IS_SMOKE_TEST=true npx ng e2e --dev-server-target '' && hint --telemetry=off https://chrisguttandin.github.io/angular-meetup-berlin-april-2019"
-                : "webdriver-manager update && IS_SMOKE_TEST=true npx ng e2e --dev-server-target '' --no-webdriver-update && hint --telemetry=off https://chrisguttandin.github.io/angular-meetup-berlin-april-2019"
+                ? `IS_SMOKE_TEST=true npx ng e2e --dev-server-target '' && \
+                    npx hint --telemetry=off https://chrisguttandin.github.io/angular-meetup-berlin-april-2019`
+                : `webdriver-manager update && \
+                    IS_SMOKE_TEST=true npx ng e2e --dev-server-target '' --no-webdriver-update && \
+                    npx hint --telemetry=off https://chrisguttandin.github.io/angular-meetup-berlin-april-2019`
         },
         'test': {
             cmd: 'npx ng test --watch false'
