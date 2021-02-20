@@ -70,7 +70,7 @@
         "@hint/parser-javascript": "^3.1.10",
         "@hint/parser-manifest": "^2.3.1",
         "@types/jasmine": "~3.6.4",
-        "@types/node": "^12.20.1",
+        "@types/node": "^12.20.4",
         "@types/prismjs": "^1.16.3",
         "angular-prerender": "^7.0.14",
         "axe-core": "^4.1.2",
