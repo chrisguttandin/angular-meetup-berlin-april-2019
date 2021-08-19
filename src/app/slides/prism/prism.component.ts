@@ -10,7 +10,7 @@ import {
     ViewChild
 } from '@angular/core';
 import * as Prism from 'prismjs';
-import 'prismjs/components/prism-bash'; // tslint:disable-line:no-submodule-imports
+import 'prismjs/components/prism-bash'; // eslint-disable-line import/no-internal-modules
 
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
