@@ -27,7 +27,7 @@
     "description": "My talk at the Angular Meetup Berlin in April 2019.",
     "devDependencies": {
         "@angular-devkit/build-angular": "~12.2.11",
-        "@angular-eslint/builder": "^12.6.0",
+        "@angular-eslint/builder": "^12.6.1",
         "@angular/cli": "~12.2.11",
         "@angular/compiler-cli": "~12.2.11",
         "@angular/language-service": "~12.2.11",
