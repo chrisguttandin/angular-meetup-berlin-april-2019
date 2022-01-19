@@ -58,12 +58,14 @@ import { SlidesComponent } from './slides.component';
         SlideNineComponent,
         SlideNineteenComponent,
         SlideOneComponent,
+        SlidesComponent,
         SlideSevenComponent,
         SlideSeventeenComponent,
         SlideSixComponent,
         SlideSixteenComponent,
         SlideTenComponent,
         SlideThirteenComponent,
+        SlideThirtyComponent,
         SlideThirtyEightComponent,
         SlideThirtyFiveComponent,
         SlideThirtyFourComponent,
@@ -73,9 +75,9 @@ import { SlidesComponent } from './slides.component';
         SlideThirtySixComponent,
         SlideThirtyThreeComponent,
         SlideThirtyTwoComponent,
-        SlideThirtyComponent,
         SlideThreeComponent,
         SlideTwelveComponent,
+        SlideTwentyComponent,
         SlideTwentyEightComponent,
         SlideTwentyFiveComponent,
         SlideTwentyFourComponent,
@@ -85,9 +87,7 @@ import { SlidesComponent } from './slides.component';
         SlideTwentySixComponent,
         SlideTwentyThreeComponent,
         SlideTwentyTwoComponent,
-        SlideTwentyComponent,
-        SlideTwoComponent,
-        SlidesComponent
+        SlideTwoComponent
     ],
     imports: [CommonModule, SlidesRoutingModule]
 })
