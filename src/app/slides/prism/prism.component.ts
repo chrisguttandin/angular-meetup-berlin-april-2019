@@ -15,7 +15,7 @@ import 'prismjs/components/prism-bash'; // eslint-disable-line import/no-interna
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
     selector: 'amb-prism',
-    styleUrls: ['./prism.component.css'],
+    styleUrls: ['./prism.component.scss'],
     templateUrl: './prism.component.html'
 })
 export class PrismComponent implements AfterViewInit, OnChanges {

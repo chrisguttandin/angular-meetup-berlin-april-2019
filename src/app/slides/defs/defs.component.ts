@@ -5,7 +5,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     changeDetection: ChangeDetectionStrategy.OnPush,
     providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
     selector: 'amb-defs',
-    styleUrls: ['./defs.component.css'],
+    styleUrls: ['./defs.component.scss'],
     templateUrl: './defs.component.html'
 })
 export class DefsComponent {

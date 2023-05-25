@@ -18,19 +18,19 @@
 }
 
 .headline .blue {
-    color: #4285F4;
+    color: #4285f4;
 }
 
 .headline .red {
-    color: #DB4437;
+    color: #db4437;
 }
 
 .headline .yellow {
-    color: #F4B400;
+    color: #f4b400;
 }
 
 .headline .green {
-    color: #0F9D58;
+    color: #0f9d58;
 }
 
 .input {
@@ -47,7 +47,6 @@
 }
 
 @keyframes blink {
-
     from,
     to {
         color: transparent;
@@ -56,7 +55,6 @@
     50% {
         color: black;
     }
-
 }
 
 .input span:after {
@@ -66,7 +64,7 @@
 }
 
 .button {
-    background-color: #CCC;
+    background-color: #ccc;
     color: #000;
     height: 0;
     margin: 40% 0 0 37.5%;
