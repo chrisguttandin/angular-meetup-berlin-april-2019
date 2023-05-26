@@ -146,7 +146,7 @@
             "inlineTemplate": false,
             "prefix": "amb",
             "skipTests": true,
-            "style": "css"
+            "style": "scss"
         },
         "@schematics/angular:directive": {
             "prefix": "amb",
