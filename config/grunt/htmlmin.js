@@ -2,8 +2,8 @@ module.exports = {
     default: {
         files: [
             {
-                cwd: 'build/angular-meetup-berlin-april-2019',
-                dest: 'build/angular-meetup-berlin-april-2019',
+                cwd: 'build/angular-meetup-berlin-april-2019/browser',
+                dest: 'build/angular-meetup-berlin-april-2019/browser',
                 expand: true,
                 src: ['**/*.html']
             }

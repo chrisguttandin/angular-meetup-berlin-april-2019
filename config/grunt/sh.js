@@ -32,11 +32,9 @@ module.exports = (grunt) => {
             cmd: 'npx ng serve'
         },
         'prerender': {
-            cmd: `npx ng run angular-meetup-berlin-april-2019:server:production && \
-                npx angular-prerender \
-                    --browser-target angular-meetup-berlin-april-2019:build \
-                    --preserve-index-html \
-                    --server-target angular-meetup-berlin-april-2019:server`
+            cmd: `npx angular-prerender \
+                --preserve-index-html \
+                --target angular-meetup-berlin-april-2019:build`
         },
         'preview': {
             cmd: 'npx ng serve --configuration production'
@@ -50,8 +48,8 @@ module.exports = (grunt) => {
             cmd: 'npx ng test --watch false'
         },
         'verify': {
-            cmd: `npx bundle-buddy build/angular-meetup-berlin-april-2019/*.js.map && \
-                grep -r build/**/*.map -e '/environments/environment.ts'; test $? -eq 1`
+            cmd: `npx bundle-buddy build/angular-meetup-berlin-april-2019/browser/*.js.map && \
+                grep -r build/angular-meetup-berlin-april-2019/browser/*.js.map -e '/environments/environment.ts'; test $? -eq 1`
         }
     };
 };
