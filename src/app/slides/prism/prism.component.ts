@@ -15,6 +15,7 @@ import 'prismjs/components/prism-bash'; // eslint-disable-line import/no-interna
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
     selector: 'amb-prism',
+    standalone: true,
     styleUrls: ['./prism.component.scss'],
     templateUrl: './prism.component.html'
 })
