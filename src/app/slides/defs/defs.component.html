@@ -1,10 +1,22 @@
 <svg class="hidden" version="1.1">
     <defs>
         <g id="bowl-background">
-            <path d="M 150 150 h 100 l 10 -40 c -24 -18 -96 -18 -120 0 z" fill="#000" stroke="#000" stroke-linejoin="round" stroke-width="2"></path>
+            <path
+                d="M 150 150 h 100 l 10 -40 c -24 -18 -96 -18 -120 0 z"
+                fill="#000"
+                stroke="#000"
+                stroke-linejoin="round"
+                stroke-width="2"
+            ></path>
         </g>
         <g id="bowl-foreground">
-            <path d="M 150 150 c 20 15 80 15 100 0 l 10 -40 c -24 18 -96 18 -120 0 z" fill="#000" stroke="#000" stroke-linejoin="round" stroke-width="2"></path>
+            <path
+                d="M 150 150 c 20 15 80 15 100 0 l 10 -40 c -24 18 -96 18 -120 0 z"
+                fill="#000"
+                stroke="#000"
+                stroke-linejoin="round"
+                stroke-width="2"
+            ></path>
         </g>
         <linearGradient id="pasta">
             <stop offset="0" stop-color="#DA1"></stop>
@@ -12,7 +24,7 @@
             <stop offset="1" stop-color="#DA1"></stop>
         </linearGradient>
         <g id="noodle">
-            <path d="M 3 0 h 20 c 3 2 3 8 0 10 h -20 c -3 -2 -3 -8 0 -10 z" [attr.fill]="pastaPath"></path>
+            <path d="M 3 0 h 20 c 3 2 3 8 0 10 h -20 c -3 -2 -3 -8 0 -10 z" fill="url(#pasta)"></path>
         </g>
         <g id="noodle-with-sauce">
             <use xlink:href="#noodle"></use>
