@@ -5,7 +5,7 @@ module.exports = {
                 cwd: 'build/angular-meetup-berlin-april-2019/browser',
                 dest: 'build/angular-meetup-berlin-april-2019/browser',
                 expand: true,
-                src: ['**/*.html']
+                src: ['**/404.html']
             }
         ],
         options: {
