@@ -5,7 +5,6 @@ import { DefsComponent } from '../defs/defs.component';
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [DefsComponent],
     selector: 'amb-slide-eighteen',
-    standalone: true,
     styleUrls: ['./slide-eighteen.component.scss'],
     templateUrl: './slide-eighteen.component.html'
 })

@@ -5,7 +5,6 @@ import { PrismComponent } from '../prism/prism.component';
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PrismComponent],
     selector: 'amb-slide-thirty-seven',
-    standalone: true,
     templateUrl: './slide-thirty-seven.component.html'
 })
 export class SlideThirtySevenComponent {}
