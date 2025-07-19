@@ -66,7 +66,7 @@ for (let slide = 1; slide < 40; slide += 1) {
                 await page.goto(path);
                 await page.locator('html').evaluate(({ style }) => (style.fontSynthesis = 'none'));
 
-                if (env.CI === 'true' && env.IS_SMOKE_TEST === 'true' && browserName === 'chromium' && [3, 36, 37, 38].includes(slide)) {
+                if (browserName === 'chromium' && [3, 36, 37, 38].includes(slide)) {
                     await expect(page).not.toHaveScreenshot(name, {
                         fullPage: true
                     });
