@@ -64,7 +64,7 @@
                     }
                 },
                 "extract-i18n": {
-                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "builder": "@angular/build:extract-i18n",
                     "options": {
                         "buildTarget": "angular-meetup-berlin-april-2019:build"
                     }
@@ -98,7 +98,7 @@
                     }
                 },
                 "test": {
-                    "builder": "@angular-devkit/build-angular:karma",
+                    "builder": "@angular/build:karma",
                     "options": {
                         "assets": ["src/assets"],
                         "include": ["../test/unit/**/*.ts"],
