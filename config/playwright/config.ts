@@ -41,14 +41,16 @@ export default defineConfig({
     testDir: '../../test',
     testMatch: /(?:e2e|regression)\/(?!.*\.po\.ts$).*\.ts$/,
     use: {
-        baseURL: env.IS_SMOKE_TEST === 'true' ? 'https://chrisguttandin.github.io/angular-meetup-berlin-april-2019/' : 'http://localhost:9988',
+        baseURL:
+            env.IS_SMOKE_TEST === 'true' ? 'https://chrisguttandin.github.io/angular-meetup-berlin-april-2019/' : 'http://localhost:9988',
         trace: 'on-first-retry'
     },
-    webServer: env.IS_SMOKE_TEST === 'true'
-        ? undefined
-        : {
-              command: 'npm run monitor',
-              port: 9988
-          },
+    webServer:
+        env.IS_SMOKE_TEST === 'true'
+            ? undefined
+            : {
+                  command: 'npm run monitor',
+                  port: 9988
+              },
     workers: env.CI === 'true' ? 1 : undefined
 });
