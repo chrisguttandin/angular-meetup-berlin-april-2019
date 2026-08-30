@@ -107,6 +107,7 @@
     "license": "MIT",
     "main": "src/index.html",
     "name": "angular-meetup-berlin-april-2019",
+    "packageManager": "npm@12",
     "private": true,
     "repository": {
         "type": "git",
